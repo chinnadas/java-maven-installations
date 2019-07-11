@@ -1,4 +1,4 @@
-su jenkins
+#su jenkins
 vi sudo
 vi /etc/ssh/sshd_config
 
