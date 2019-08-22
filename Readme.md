@@ -1,3 +1,5 @@
+  variables
+  =========
 java -version
 
 mvn -V
