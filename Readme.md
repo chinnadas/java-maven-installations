@@ -1,11 +1,11 @@
-#su jenkins
-vi sudo
-vi /etc/ssh/sshd_config
-
-sudo apt install openjdk-8-jdk
 java -version
 
+mvn -V
+
+temperory variable
+
 vi /etc/environmet
+
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 
 export PATH=$PATH:$JAVA_HOME/bin
@@ -19,7 +19,8 @@ source /etc/environmet
 
 
 
-
+permanent  variables
+===================
 
 
 
@@ -37,7 +38,7 @@ source /etc/profile
 
 
 
-for perminently add
+
 
 
 
